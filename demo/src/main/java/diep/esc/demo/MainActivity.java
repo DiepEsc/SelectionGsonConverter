@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 =new SelectionGsonConverterFactory(ResponseMessage.class);
 
         Retrofit.Builder builder =new Retrofit.Builder();
-        Retrofit retrofit = builder.baseUrl("http://rawgit.com/TranTienTung/alert-simple-js/master/")
+        Retrofit retrofit = builder.baseUrl("http://rawgit.com/TranTienTung/SelectionGsonConverter/master/")
                 .addConverterFactory(factory)
                 .build();
         DemoEndpoint endpoint = retrofit.create(DemoEndpoint.class);
