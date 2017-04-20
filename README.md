@@ -1,6 +1,18 @@
 # SelectionGsonConverter
 A Simple Selection Gson Converter for Retrofit Response Message
+[![](https://jitpack.io/v/TranTienTung/SelectionGsonConverter.svg)](https://jitpack.io/#TranTienTung/SelectionGsonConverter)
 # User guide
-- Clone this repo
-- Add modul `selection-gson-converter` to your project, and add dependdency to your modul
+- Add JitPack repository to your root build.gradle
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  ```
+- Add dependencie to your modul
+```
+compile 'com.github.TranTienTung:SelectionGsonConverter:0.0'
+```
 - For code implementation, see the example code in the modul `Demo` in this project
