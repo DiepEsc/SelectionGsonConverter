@@ -1,7 +1,6 @@
 {"author": "https://fb.com/DiepEsc",
 "github": "https://github.com/TranTienTung",
 "data": {
-	"actionId": 5,
-	"message": "Successed!"
+	"result": "Successed!"
 	}
 }
