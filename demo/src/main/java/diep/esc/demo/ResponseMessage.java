@@ -14,5 +14,5 @@ public class ResponseMessage implements BaseResponseMessage {
     }
     private String author;
     private String github;
-    private SelectedMessageData data;
+    private SelectedData data;
 }

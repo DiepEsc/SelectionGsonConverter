@@ -9,5 +9,8 @@ import retrofit2.http.GET;
 
 public interface DemoEndpoint {
     @GET("demoApi")
-    Call<SelectedMessageData> getData();
+    Call<ApiSelectedMessageData> getData();
+
+    @GET("demoApi2")
+    Call<Api2SelectedMessageData> getData2();
 }
