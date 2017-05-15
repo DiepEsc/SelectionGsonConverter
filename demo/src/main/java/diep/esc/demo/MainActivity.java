@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         Retrofit.Builder builder =new Retrofit.Builder();
         Retrofit retrofit = builder
-                .baseUrl("http://rawgit.com/TranTienTung/SelectionGsonConverter/master/")
+                .baseUrl("http://rawgit.com/DiepEsc/SelectionGsonConverter/master/")
                 .addConverterFactory(factory)
                 .build();
         DemoEndpoint endpoint = retrofit.create(DemoEndpoint.class);
